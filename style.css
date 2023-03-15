@@ -20,10 +20,15 @@ nav a {
 }
 
 .promo-div {
-    background: blue;
+    background: rgb(41, 41, 160);
     color: white;
     height: 40px;
     text-align: center;
+}
+
+.logo {
+    height:20px;
+    margin-right: 25px;
 }
 
 .main-image {
@@ -37,15 +42,43 @@ nav a {
 }
 
 
+.main-text {
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    height: 225px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.shop-button a {
+    text-decoration: none;
+    background-color: rgb(48, 48, 207);
+    color: white;
+    position: absolute;
+    top: 35%;
+    left:10%;
+    height: 20px;
+    width: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 .product-categories, .service-cards {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .product-categories div {
     display: inline-block;
     height: 100px;
+    margin: 25px;
 }
 
 
